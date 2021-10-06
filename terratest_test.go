@@ -16,7 +16,7 @@ func TestTerraform(t *testing.T) {
 	expectedVolumeSize := "20"
 
 	terraformOption := &terraform.Options{
-		TerraformDir: "../",
+		TerraformDir: "../",  //.tfstateファイルのパスを記載
 	}
 
 	// ec2-a
